@@ -9,3 +9,7 @@ variable "owner" {
 variable "cloudflare_zone_id" {
   type = string
 }
+
+variable "code_bucket_name" {
+  type = string
+}
